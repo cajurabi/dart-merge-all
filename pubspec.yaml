@@ -1,0 +1,8 @@
+name: merge_all
+version: 0.1.0
+homepage: https://github.com/JosephMoniz/dart-merge-all
+description: >
+  A Stream transformer for merging multiple streams into one w/ concurrency
+author: Joseph Moniz <joseph.moniz@gmail.com>
+dependencies:
+  merge: '>=0.1.0 <0.2.0'

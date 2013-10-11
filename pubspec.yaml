@@ -1,8 +1,9 @@
 name: merge_all
 version: 0.1.1
-homepage: https://github.com/JosephMoniz/dart-merge-all
-description: >
-  An alternative interface to the merge stream transformer
 author: Joseph Moniz <joseph.moniz@gmail.com>
+description: An alternative interface to the merge stream transformer
+homepage: https://github.com/JosephMoniz/dart-merge-all
 dependencies:
-  merge: '>=0.1.0 <0.2.0'
+  merge:
+    git: https://github.com/cajurabi/dart-merge-all.git
+    version: '>=0.1.0 <0.2.0'
